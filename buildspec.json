@@ -11,8 +11,7 @@
         },
         "build": {
             "commands": [
-                "npm run build",
-                "aws s3 cp build s3://24x7us --recursive"
+                "npm run build"
             ]
         },
         "post_build": {
