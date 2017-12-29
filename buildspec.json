@@ -11,7 +11,8 @@
         },
         "build": {
             "commands": [
-                "npm run build"
+                "npm run build",
+                "aws s3 cp dist s3://24x7us/ --recursive"
             ]
         },
         "post_build": {
@@ -20,8 +21,9 @@
     },
     "artifacts": {
         "files": [
+            "index.html",
             "**/*"
         ],
-        "base-directory": "dist"
+    "base-directory": "dist"
     }
 }
