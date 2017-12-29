@@ -13,22 +13,7 @@ export default class HomeDashboard extends Component {
 						<hr />
 						<div className="container-fluid">
 							<div className="row">
-								<div className="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-									<label htmlFor="">Topic</label>
-									<input type="text" className="form-control" />
-								</div>
-								<div className="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-									<label htmlFor="">Topic</label>
-									<input type="text" className="form-control"  />
-								</div>
-								<div className="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-									<label htmlFor=""> Topic</label>
-									<input type="text" className="form-control"  />
-								</div>
-								<div className="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-									<label htmlFor="">Topic</label>
-									<input type="text" className="form-control"  />
-								</div>
+								
 							</div>
 						</div>
   					</div>
