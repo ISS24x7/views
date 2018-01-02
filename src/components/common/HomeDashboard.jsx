@@ -6,7 +6,7 @@ export default class HomeDashboard extends Component {
 	render() {
 		return (
 			<div className="container-fluid">
-				<BreadCrumb links={[{ label: 'HomeSDEgf', link: '#home' }, { label: 'News/Updates', link: '#News/Updates' }]} /> 
+				<BreadCrumb links={[{ label: 'Home', link: '#home' }, { label: 'News/Updates', link: '#News/Updates' }]} /> 
 				<div className="card">
 					<div className="card-block">
 						<h5>Add System Updates</h5>
